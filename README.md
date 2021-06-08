@@ -5,7 +5,7 @@ https://arieslab.github.io/lyzeli
 
 ## How to use
 
-1- You need to have your survey results in a TSV file. If you used Google Forms to do your survey, you can go to File > Download > Tab-separated values (.tsv).
+1- You need to have your survey results in a TSV file. If you used Google Forms to do your survey, you can go to File > Download > Tab-separated values (.tsv). PS: The first line need to be the questions.
 
 2- You need a repository on github, preferably private, to use Lyzeli. (https://github.com/new)
 
