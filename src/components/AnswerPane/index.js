@@ -56,6 +56,7 @@ export default class AnswerPane extends AnswerPrinter {
       a.forEach((j) => {
         exploded.push({ ...i, answer: j.trim() });
       });
+      return i;
     });
 
     const answers = AnswerClassifier.groupAnswers(exploded);

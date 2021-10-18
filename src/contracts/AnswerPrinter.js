@@ -351,9 +351,62 @@ export default class AnswerPrinter extends Component {
       areas.push({
         key: "Chart",
         content: () => (
-          <div className="c-chart-area" style={{ maxWidth: "600px" }}>
+          <div className="c-chart-area c-teste" style={{ maxWidth: "600px" }}>
             <Chart type={"bar"} data={data} options={options}></Chart>
           </div>
+        ),
+      });
+
+      areas.push({
+        key: "Latex Chart",
+        content: () => (
+          <>
+            <div>
+              <b>{"\\usepackage{pgfplots}"}</b>
+            </div>
+            <br />
+            <textarea
+              rows="12"
+              style={{ width: "100%", padding: "8px" }}
+              defaultValue={`\\begin{figure}[th]
+    \\begin{tikzpicture}
+        \\begin{axis}[
+            xbar, xmin=0,
+            tick label style = {
+                font = {\\fontsize{8 pt}{10 pt}\\selectfont}
+            },
+            bar width = 10,
+            y=0.5cm,
+            symbolic y coords={
+                ${answersKeys.join(",\n                ")}
+            },
+            ytick=data,
+            grid=major, grid style={dashed,gray!30},
+            xticklabel={$\\pgfmathprintnumber{\\tick}\\%$},
+            legend={q}
+        ]
+           \\addplot[fill=black!30!blue] coordinates {
+              ${answersKeys
+                .map((answerKey) => {
+                  const answers = this.state.sets[answerKey];
+                  console.log(answers);
+                  const total = this.valids.length;
+                  return `(${
+                    total > 0
+                      ? `${((answers.length * 100) / total).toFixed(
+                          2
+                        )},${answerKey})`
+                      : `0,${answerKey}`
+                  }\n`;
+                })
+                .join("              ")}            };
+        \\end{axis}
+    \\end{tikzpicture}
+    \\captionof{figure}{Put your caption}
+    \\label{put-your-label}
+\\end{figure}`}
+            ></textarea>
+          </>
         ),
       });
 
