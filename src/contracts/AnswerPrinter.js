@@ -351,7 +351,7 @@ export default class AnswerPrinter extends Component {
       areas.push({
         key: "Chart",
         content: () => (
-          <div className="c-chart-area c-teste" style={{ maxWidth: "600px" }}>
+          <div className="c-chart-area" style={{ maxWidth: "600px" }}>
             <Chart type={"bar"} data={data} options={options}></Chart>
           </div>
         ),
