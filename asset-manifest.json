@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lyzeli/static/css/main.827deaa1.chunk.css",
-    "main.js": "/lyzeli/static/js/main.373d4272.chunk.js",
-    "main.js.map": "/lyzeli/static/js/main.373d4272.chunk.js.map",
-    "runtime-main.js": "/lyzeli/static/js/runtime-main.a139a82a.js",
-    "runtime-main.js.map": "/lyzeli/static/js/runtime-main.a139a82a.js.map",
-    "static/js/2.74643e60.chunk.js": "/lyzeli/static/js/2.74643e60.chunk.js",
-    "static/js/2.74643e60.chunk.js.map": "/lyzeli/static/js/2.74643e60.chunk.js.map",
-    "static/js/3.f5b8acb5.chunk.js": "/lyzeli/static/js/3.f5b8acb5.chunk.js",
-    "static/js/3.f5b8acb5.chunk.js.map": "/lyzeli/static/js/3.f5b8acb5.chunk.js.map",
+    "main.css": "/lyzeli/static/css/main.a7f7bbe1.chunk.css",
+    "main.js": "/lyzeli/static/js/main.40b691ec.chunk.js",
+    "main.js.map": "/lyzeli/static/js/main.40b691ec.chunk.js.map",
+    "runtime-main.js": "/lyzeli/static/js/runtime-main.04343028.js",
+    "runtime-main.js.map": "/lyzeli/static/js/runtime-main.04343028.js.map",
+    "static/js/2.adb40f72.chunk.js": "/lyzeli/static/js/2.adb40f72.chunk.js",
+    "static/js/2.adb40f72.chunk.js.map": "/lyzeli/static/js/2.adb40f72.chunk.js.map",
+    "static/js/3.e01c549c.chunk.js": "/lyzeli/static/js/3.e01c549c.chunk.js",
+    "static/js/3.e01c549c.chunk.js.map": "/lyzeli/static/js/3.e01c549c.chunk.js.map",
     "index.html": "/lyzeli/index.html",
-    "static/css/main.827deaa1.chunk.css.map": "/lyzeli/static/css/main.827deaa1.chunk.css.map",
-    "static/js/2.74643e60.chunk.js.LICENSE.txt": "/lyzeli/static/js/2.74643e60.chunk.js.LICENSE.txt",
+    "static/css/main.a7f7bbe1.chunk.css.map": "/lyzeli/static/css/main.a7f7bbe1.chunk.css.map",
+    "static/js/2.adb40f72.chunk.js.LICENSE.txt": "/lyzeli/static/js/2.adb40f72.chunk.js.LICENSE.txt",
     "static/media/Lyzeli.svg": "/lyzeli/static/media/Lyzeli.4543b848.svg",
     "static/media/close.svg": "/lyzeli/static/media/close.4deb0168.svg",
     "static/media/database.svg": "/lyzeli/static/media/database.42247b29.svg",
@@ -26,9 +26,9 @@
     "static/media/upload.eabf7003.svg": "/lyzeli/static/media/upload.eabf7003.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a139a82a.js",
-    "static/js/2.74643e60.chunk.js",
-    "static/css/main.827deaa1.chunk.css",
-    "static/js/main.373d4272.chunk.js"
+    "static/js/runtime-main.04343028.js",
+    "static/js/2.adb40f72.chunk.js",
+    "static/css/main.a7f7bbe1.chunk.css",
+    "static/js/main.40b691ec.chunk.js"
   ]
 }
